@@ -1,5 +1,7 @@
+using BlazorDemo.Hyrbid.Shared.Data;
 using BlazorDemo.Hyrbid.Shared.Services;
 using BlazorDemo.Hyrbid.Web.Components;
+using BlazorDemo.Hyrbid.Web.Data;
 using BlazorDemo.Hyrbid.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,8 @@ builder.Services.AddRazorComponents()
 
 // Add device-specific services used by the BlazorDemo.Hyrbid.Shared project
 builder.Services.AddSingleton<IFormFactor, FormFactor>();
+
+builder.Services.AddTransient<IExamService, ExamService>();
 
 var app = builder.Build();
 

@@ -1,0 +1,40 @@
+﻿@page "/exams"
+@inject IExamService ExamService
+
+
+<h1>Exams</h1>
+
+@if (exams is null)
+{
+    <span>Loading...</span>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>MaxMark</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var exam in exams)
+            {
+                <tr>
+                    <td>@exam.Name</td>
+                    <td>@exam.Subject</td>
+                    <td>@exam.MaxMark</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Exam>? exams = null;
+    protected async override Task OnInitializedAsync()
+    {
+        exams = await ExamService.LoadExamData();
+    }
+}
