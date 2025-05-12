@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazorDemo.Hybrid.WindowsForms\BlazorDemo.Hybrid.WindowsForms.csproj" />
     <ProjectReference Include="..\BlazorDemo.Hyrbid\BlazorDemo.Hyrbid.Web\BlazorDemo.Hyrbid.Web.csproj" />
   </ItemGroup>
 

@@ -2,4 +2,6 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 builder.AddProject<Projects.BlazorDemo_Hyrbid_Web>("blazordemo-hyrbid-web");
 
+builder.AddProject<Projects.BlazorDemo_Hybrid_WindowsForms>("blazordemo-hybrid-windowsforms");
+
 builder.Build().Run();
