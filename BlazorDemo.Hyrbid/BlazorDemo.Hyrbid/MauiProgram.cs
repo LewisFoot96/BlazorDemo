@@ -1,4 +1,6 @@
-﻿using BlazorDemo.Hyrbid.Services;
+﻿using BlazorDemo.Hyrbid.Data;
+using BlazorDemo.Hyrbid.Services;
+using BlazorDemo.Hyrbid.Shared.Data;
 using BlazorDemo.Hyrbid.Shared.Services;
 using Microsoft.Extensions.Logging;
 
@@ -18,6 +20,8 @@ namespace BlazorDemo.Hyrbid
 
             // Add device-specific services used by the BlazorDemo.Hyrbid.Shared project
             builder.Services.AddSingleton<IFormFactor, FormFactor>();
+
+            builder.Services.AddTransient<IExamService, ExamService>();
 
             builder.Services.AddMauiBlazorWebView();
 

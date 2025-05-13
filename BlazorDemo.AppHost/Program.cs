@@ -6,4 +6,6 @@ builder.AddProject<Projects.BlazorDemo_Hybrid_WindowsForms>("blazordemo-hybrid-w
 
 builder.AddProject<Projects.BlazorDemo_Hybrid_Wpf>("blazordemo-hybrid-wpf");
 
+//builder.AddMobileProject("mauiclient", "../BlazorDemo.Hyrbid");
+
 builder.Build().Run();

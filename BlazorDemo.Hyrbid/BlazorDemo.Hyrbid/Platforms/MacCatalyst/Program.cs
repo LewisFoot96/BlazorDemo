@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace BlazorDemo.Hyrbid
+namespace BlazorDemo.Hyrbid.Platforms.MacCatalyst
 {
     public class Program
     {

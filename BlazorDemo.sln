@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo.Hyrbid", "BlazorDemo.Hyrbid\BlazorDemo.Hyrbid\BlazorDemo.Hyrbid.csproj", "{A792B7D2-EFB3-4679-AD24-23B53420AC6B}"
 EndProject
@@ -27,6 +27,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A792B7D2-EFB3-4679-AD24-23B53420AC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A792B7D2-EFB3-4679-AD24-23B53420AC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A792B7D2-EFB3-4679-AD24-23B53420AC6B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{A792B7D2-EFB3-4679-AD24-23B53420AC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A792B7D2-EFB3-4679-AD24-23B53420AC6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40DFCBFF-B563-4A2A-978D-F0348AB81E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
