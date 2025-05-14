@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo.Hybrid.Wpf", "Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo.Hybrid.WindowsForms", "BlazorDemo.Hybrid.WindowsForms\BlazorDemo.Hybrid.WindowsForms.csproj", "{81F5B2F8-406B-4738-A15A-7AE72008395D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo.RenderModesExample", "BlazorDemo.RenderModesExample\BlazorDemo.RenderModesExample\BlazorDemo.RenderModesExample.csproj", "{0AB03F64-6F82-46EB-A7DD-88F5779BE5C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo.RenderModesExample.Client", "BlazorDemo.RenderModesExample\BlazorDemo.RenderModesExample.Client\BlazorDemo.RenderModesExample.Client.csproj", "{069C37CD-E575-47FD-1C25-DCC09952067B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,14 @@ Global
 		{81F5B2F8-406B-4738-A15A-7AE72008395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F5B2F8-406B-4738-A15A-7AE72008395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F5B2F8-406B-4738-A15A-7AE72008395D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB03F64-6F82-46EB-A7DD-88F5779BE5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB03F64-6F82-46EB-A7DD-88F5779BE5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB03F64-6F82-46EB-A7DD-88F5779BE5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB03F64-6F82-46EB-A7DD-88F5779BE5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069C37CD-E575-47FD-1C25-DCC09952067B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069C37CD-E575-47FD-1C25-DCC09952067B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069C37CD-E575-47FD-1C25-DCC09952067B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069C37CD-E575-47FD-1C25-DCC09952067B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

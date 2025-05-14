@@ -8,4 +8,8 @@ builder.AddProject<Projects.BlazorDemo_Hybrid_Wpf>("blazordemo-hybrid-wpf");
 
 //builder.AddMobileProject("mauiclient", "../BlazorDemo.Hyrbid");
 
+builder.AddProject<Projects.BlazorDemo_RenderModesExample>("blazordemo-rendermodesexample");
+
+//builder.AddMobileProject("mauiclient", "../BlazorDemo.Hyrbid");
+
 builder.Build().Run();

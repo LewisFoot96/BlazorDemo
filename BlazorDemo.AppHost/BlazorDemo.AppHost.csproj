@@ -20,6 +20,7 @@
     <ProjectReference Include="..\BlazorDemo.Hybrid.WindowsForms\BlazorDemo.Hybrid.WindowsForms.csproj" />
     <ProjectReference Include="..\BlazorDemo.Hybrid.Wpf\BlazorDemo.Hybrid.Wpf.csproj" />
     <ProjectReference Include="..\BlazorDemo.Hyrbid\BlazorDemo.Hyrbid.Web\BlazorDemo.Hyrbid.Web.csproj" />
+    <ProjectReference Include="..\BlazorDemo.RenderModesExample\BlazorDemo.RenderModesExample\BlazorDemo.RenderModesExample.csproj" />
   </ItemGroup>
 
 </Project>
